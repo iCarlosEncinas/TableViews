@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D24F1502702862200531368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F14F2702862200531368 /* AppDelegate.swift */; };
+		3D24F1522702862200531368 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F1512702862200531368 /* SceneDelegate.swift */; };
+		3D24F1542702862200531368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F1532702862200531368 /* ViewController.swift */; };
+		3D24F1572702862200531368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D24F1552702862200531368 /* Main.storyboard */; };
+		3D24F1592702862B00531368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D24F1582702862B00531368 /* Assets.xcassets */; };
+		3D24F15C2702862B00531368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D24F15A2702862B00531368 /* LaunchScreen.storyboard */; };
+		3D24F1672702862C00531368 /* practica_27SepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F1662702862C00531368 /* practica_27SepTests.swift */; };
+		3D24F1722702862C00531368 /* practica_27SepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F1712702862C00531368 /* practica_27SepUITests.swift */; };
+		3D24F180270293CD00531368 /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F17F270293CD00531368 /* CeldaAlumnoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D24F1632702862C00531368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D24F1442702862200531368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D24F14B2702862200531368;
+			remoteInfo = "practica-27Sep";
+		};
+		3D24F16E2702862C00531368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D24F1442702862200531368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D24F14B2702862200531368;
+			remoteInfo = "practica-27Sep";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D24F14C2702862200531368 /* TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D24F14F2702862200531368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D24F1512702862200531368 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D24F1532702862200531368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D24F1562702862200531368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D24F1582702862B00531368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D24F15B2702862B00531368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D24F15D2702862B00531368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D24F1622702862C00531368 /* practica-27SepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "practica-27SepTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D24F1662702862C00531368 /* practica_27SepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_27SepTests.swift; sourceTree = "<group>"; };
+		3D24F1682702862C00531368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D24F16D2702862C00531368 /* practica-27SepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "practica-27SepUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D24F1712702862C00531368 /* practica_27SepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_27SepUITests.swift; sourceTree = "<group>"; };
+		3D24F1732702862C00531368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D24F17F270293CD00531368 /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D24F1492702862200531368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D24F15F2702862C00531368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D24F16A2702862C00531368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D24F1432702862200531368 = {
+			isa = PBXGroup;
+			children = (
+				3D24F14E2702862200531368 /* practica-27Sep */,
+				3D24F1652702862C00531368 /* practica-27SepTests */,
+				3D24F1702702862C00531368 /* practica-27SepUITests */,
+				3D24F14D2702862200531368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D24F14D2702862200531368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D24F14C2702862200531368 /* TableViews.app */,
+				3D24F1622702862C00531368 /* practica-27SepTests.xctest */,
+				3D24F16D2702862C00531368 /* practica-27SepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D24F14E2702862200531368 /* practica-27Sep */ = {
+			isa = PBXGroup;
+			children = (
+				3D24F14F2702862200531368 /* AppDelegate.swift */,
+				3D24F1512702862200531368 /* SceneDelegate.swift */,
+				3D24F1532702862200531368 /* ViewController.swift */,
+				3D24F1552702862200531368 /* Main.storyboard */,
+				3D24F1582702862B00531368 /* Assets.xcassets */,
+				3D24F15A2702862B00531368 /* LaunchScreen.storyboard */,
+				3D24F15D2702862B00531368 /* Info.plist */,
+				3D24F17F270293CD00531368 /* CeldaAlumnoController.swift */,
+			);
+			path = "practica-27Sep";
+			sourceTree = "<group>";
+		};
+		3D24F1652702862C00531368 /* practica-27SepTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D24F1662702862C00531368 /* practica_27SepTests.swift */,
+				3D24F1682702862C00531368 /* Info.plist */,
+			);
+			path = "practica-27SepTests";
+			sourceTree = "<group>";
+		};
+		3D24F1702702862C00531368 /* practica-27SepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D24F1712702862C00531368 /* practica_27SepUITests.swift */,
+				3D24F1732702862C00531368 /* Info.plist */,
+			);
+			path = "practica-27SepUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D24F14B2702862200531368 /* practica-27Sep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D24F1762702862C00531368 /* Build configuration list for PBXNativeTarget "practica-27Sep" */;
+			buildPhases = (
+				3D24F1482702862200531368 /* Sources */,
+				3D24F1492702862200531368 /* Frameworks */,
+				3D24F14A2702862200531368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "practica-27Sep";
+			productName = "practica-27Sep";
+			productReference = 3D24F14C2702862200531368 /* TableViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D24F1612702862C00531368 /* practica-27SepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D24F1792702862C00531368 /* Build configuration list for PBXNativeTarget "practica-27SepTests" */;
+			buildPhases = (
+				3D24F15E2702862C00531368 /* Sources */,
+				3D24F15F2702862C00531368 /* Frameworks */,
+				3D24F1602702862C00531368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D24F1642702862C00531368 /* PBXTargetDependency */,
+			);
+			name = "practica-27SepTests";
+			productName = "practica-27SepTests";
+			productReference = 3D24F1622702862C00531368 /* practica-27SepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D24F16C2702862C00531368 /* practica-27SepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D24F17C2702862C00531368 /* Build configuration list for PBXNativeTarget "practica-27SepUITests" */;
+			buildPhases = (
+				3D24F1692702862C00531368 /* Sources */,
+				3D24F16A2702862C00531368 /* Frameworks */,
+				3D24F16B2702862C00531368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D24F16F2702862C00531368 /* PBXTargetDependency */,
+			);
+			name = "practica-27SepUITests";
+			productName = "practica-27SepUITests";
+			productReference = 3D24F16D2702862C00531368 /* practica-27SepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D24F1442702862200531368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3D24F14B2702862200531368 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3D24F1612702862C00531368 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3D24F14B2702862200531368;
+					};
+					3D24F16C2702862C00531368 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3D24F14B2702862200531368;
+					};
+				};
+			};
+			buildConfigurationList = 3D24F1472702862200531368 /* Build configuration list for PBXProject "practica-27Sep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D24F1432702862200531368;
+			productRefGroup = 3D24F14D2702862200531368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D24F14B2702862200531368 /* practica-27Sep */,
+				3D24F1612702862C00531368 /* practica-27SepTests */,
+				3D24F16C2702862C00531368 /* practica-27SepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D24F14A2702862200531368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D24F15C2702862B00531368 /* LaunchScreen.storyboard in Resources */,
+				3D24F1592702862B00531368 /* Assets.xcassets in Resources */,
+				3D24F1572702862200531368 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D24F1602702862C00531368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D24F16B2702862C00531368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D24F1482702862200531368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D24F1542702862200531368 /* ViewController.swift in Sources */,
+				3D24F1502702862200531368 /* AppDelegate.swift in Sources */,
+				3D24F1522702862200531368 /* SceneDelegate.swift in Sources */,
+				3D24F180270293CD00531368 /* CeldaAlumnoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D24F15E2702862C00531368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D24F1672702862C00531368 /* practica_27SepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D24F1692702862C00531368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D24F1722702862C00531368 /* practica_27SepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D24F1642702862C00531368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D24F14B2702862200531368 /* practica-27Sep */;
+			targetProxy = 3D24F1632702862C00531368 /* PBXContainerItemProxy */;
+		};
+		3D24F16F2702862C00531368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D24F14B2702862200531368 /* practica-27Sep */;
+			targetProxy = 3D24F16E2702862C00531368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D24F1552702862200531368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D24F1562702862200531368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D24F15A2702862B00531368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D24F15B2702862B00531368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D24F1742702862C00531368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D24F1752702862C00531368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D24F1772702862C00531368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-27Sep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-27Sep";
+				PRODUCT_NAME = TableViews;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D24F1782702862C00531368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-27Sep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-27Sep";
+				PRODUCT_NAME = TableViews;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D24F17A2702862C00531368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-27SepTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-27SepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica-27Sep.app/practica-27Sep";
+			};
+			name = Debug;
+		};
+		3D24F17B2702862C00531368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-27SepTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-27SepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica-27Sep.app/practica-27Sep";
+			};
+			name = Release;
+		};
+		3D24F17D2702862C00531368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-27SepUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-27SepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "practica-27Sep";
+			};
+			name = Debug;
+		};
+		3D24F17E2702862C00531368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "practica-27SepUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.practica-27SepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "practica-27Sep";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D24F1472702862200531368 /* Build configuration list for PBXProject "practica-27Sep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D24F1742702862C00531368 /* Debug */,
+				3D24F1752702862C00531368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D24F1762702862C00531368 /* Build configuration list for PBXNativeTarget "practica-27Sep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D24F1772702862C00531368 /* Debug */,
+				3D24F1782702862C00531368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D24F1792702862C00531368 /* Build configuration list for PBXNativeTarget "practica-27SepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D24F17A2702862C00531368 /* Debug */,
+				3D24F17B2702862C00531368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D24F17C2702862C00531368 /* Build configuration list for PBXNativeTarget "practica-27SepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D24F17D2702862C00531368 /* Debug */,
+				3D24F17E2702862C00531368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D24F1442702862200531368 /* Project object */;
+}
